@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {    margin: 0;
+
+
+}
+.hero-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://geek360.com.br/wp-content/uploads/2020/03/Melhores-Monitores-Ultrawide.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs; 
+    color: aliceblue;
+    font-size: 60px;
+
+}
+nav {
+    width: 50%;
+
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+}
+li { 
+    list-style: none;
+    color:aliceblue ;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'kdam Thmor Pro';
+}
+li:hover{
+     color: red;
+}
+
+.arrows {
+    width: 60px;
+    height: 172px;
+    bottom: 20px;
+
+}
+.arrows path{
+    stroke: aliceblue;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite
+   }
+
+   @keyframes arrow
+   {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+
+   }
+
+   @-webkit-keyframes arrow
+   {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+
+   }
+   .arrow path.a1 {
+        animation-delay: -0.5s;
+        -webkit-animation-delay: -0.5s;
+
+   }
+   .arrow path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+
+}
+.arrow path.a3 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+
+}
+
+.content-container {
+    height: 30vh;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs; 
+    color: aliceblue;
+    font-size: 60px;
+ 
+    
+}
